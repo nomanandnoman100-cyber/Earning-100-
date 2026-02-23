@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>টাকা আয় করুন - বিজ্ঞাপন দেখুন</title>
-    <script src='//libtl.com/sdk.js' data-zone='9472189' data-sdk='show_9472189'></script>
+    <script src=<script src='//libtl.com/sdk.js' data-zone='10642853' data-sdk='show_10642853'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
@@ -479,8 +479,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>টাকা আয় করুন - বিজ্ঞাপন দেখুন</h1>
-            <p>বিজ্ঞাপন দেখে আসল টাকা আয় করুন</p>
+            <h1>coin আয় করুন - বিজ্ঞাপন দেখুন</h1>
+            <p>বিজ্ঞাপন দেখে আসল coin আয় করুন</p>
             <div class="badge">সক্রিয়</div>
         </div>
         
@@ -517,7 +517,7 @@
                 </div>
                 <div class="stat-card">
                     <h3>আয়কৃত টাকা</h3>
-                    <p id="earned-money">0.00 <small>টাকা</small></p>
+                    <p id="earned-money">0.00 <small>coin</small></p>
                 </div>
             </div>
             
@@ -584,9 +584,9 @@
             </div>
             
             <div class="rate-info">
-                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
-                <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: ২০ টাকা</p>
-                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী</p>
+                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = 18 coin</p>
+                <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: 50000 coin</p>
+                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: 10000 coin প্রতি ব্যবহারকারী</p>
             </div>
         </div>
         
@@ -596,7 +596,7 @@
             
             <div class="action-buttons">
                 <button class="btn btn-primary" id="watch-ad-btn-earn" onclick="watchAd()">
-                    <i class="fas fa-play"></i> বিজ্ঞাপন দেখুন (২ টাকা)
+                    <i class="fas fa-play"></i> বিজ্ঞাপন দেখুন (18 coin)
                 </button>
                 <button class="btn btn-success" id="auto-ad-btn-earn" onclick="startAutoAds()">
                     <i class="fas fa-robot"></i> স্বয়ংক্রিয় বিজ্ঞাপন
@@ -610,9 +610,9 @@
                 <h3 class="section-title"><i class="fas fa-users"></i> বন্ধুকে আমন্ত্রণ করুন</h3>
                 <div class="referral-stats">
                     <div>আমন্ত্রিত: <strong id="referral-count-earn">0</strong></div>
-                    <div>আয়: <strong id="referral-earnings-earn">0.00</strong> টাকা</div>
+                    <div>আয়: <strong id="referral-earnings-earn">0.00</strong> coin</div>
                 </div>
-                <p style="font-size: 14px; margin-bottom: 10px;">আপনার রেফারেল লিঙ্ক শেয়ার করুন এবং প্রতিটি বন্ধুর জন্য ৫ টাকা বোনাস পান!</p>
+                <p style="font-size: 14px; margin-bottom: 10px;">আপনার রেফারেল লিঙ্ক শেয়ার করুন এবং প্রতিটি বন্ধুর জন্য 10000 coin বোনাস পান!</p>
                 <div class="referral-link-container">
                     <input type="text" id="referral-link-earn" readonly>
                     <button id="copy-referral-earn" onclick="copyReferralLink()">কপি</button>
@@ -620,24 +620,24 @@
             </div>
             
             <div class="rate-info">
-                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
-                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী</p>
+                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = 18 coin</p>
+                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: 10000 coin প্রতি ব্যবহারকারী</p>
             </div>
         </div>
         
         <!-- উত্তোলন পেজ -->
         <div class="page-section" id="withdraw-page">
-            <h3 class="section-title"><i class="fas fa-wallet"></i> টাকা উত্তোলন</h3>
+            <h3 class="section-title"><i class="fas fa-wallet"></i> coin উত্তোলন</h3>
             
             <div class="stat-card">
                 <h3>মোট আয়</h3>
-                <p id="total-earned-withdraw">0.00 <small>টাকা</small></p>
+                <p id="total-earned-withdraw">0.00 <small>coin</small></p>
             </div>
             
             <div class="withdraw-section" id="withdraw-section">
                 <div class="form-group">
-                    <label for="withdraw-amount">পরিমাণ (টাকা)</label>
-                    <input type="number" id="withdraw-amount" class="form-control" placeholder="টাকার পরিমাণ লিখুন" min="20">
+                    <label for="withdraw-amount">পরিমাণ (coin)</label>
+                    <input type="number" id="withdraw-amount" class="form-control" placeholder="coin পরিমাণ লিখুন" min="50000">
                 </div>
                 <div class="form-group">
                     <label for="payment-method">পেমেন্ট মাধ্যম</label>
@@ -659,7 +659,7 @@
             </div>
             
             <div class="rate-info">
-                <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: ২০ টাকা</p>
+                <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: 50000 coin</p>
                 <p><i class="fas fa-clock"></i> উত্তোলন প্রসেসিং সময়: ২৪-৪৮ ঘন্টা</p>
             </div>
         </div>
@@ -683,14 +683,14 @@
                 
                 <div class="stat-card">
                     <h3><i class="fas fa-exclamation-triangle"></i> গুরুত্বপূর্ণ নোটিশ</h3>
-                    <p>উত্তোলনের জন্য ন্যূনতম ২০ টাকা প্রয়োজন। দয়া করে উত্তোলন করার আগে নিশ্চিত হয়ে নিন।</p>
+                    <p>উত্তোলনের জন্য ন্যূনতম 50000 coin প্রয়োজন। দয়া করে উত্তোলন করার আগে নিশ্চিত হয়ে নিন।</p>
                     <small>১ সপ্তাহ আগে</small>
                 </div>
             </div>
         </div>
         
         <div class="footer">
-            <p>© ২০২৩ টাকা আয় করুন অ্যাপ। সকল অধিকার সংরক্ষিত।</p>
+            <p>© ২০২৬ coin আয় করুন অ্যাপ। সকল অধিকার সংরক্ষিত।</p>
         </div>
     </div>
 
@@ -721,13 +721,13 @@
 
     <script>
         // Constants
-        const POINTS_PER_AD = 2.00; // প্রতি বিজ্ঞাপনে ২ টাকা
-        const MIN_WITHDRAW_TAKA = 20; // ন্যূনতম উত্তোলন ২০ টাকা
-        const REFERRAL_BONUS = 5.00; // রেফারেল বোনাস ৫ টাকা
+        const POINTS_PER_AD = 18; // প্রতি বিজ্ঞাপনে 18 coin
+        const MIN_WITHDRAW_TAKA = 50000; // ন্যূনতম উত্তোলন 50000 coin
+        const REFERRAL_BONUS = 10000; // রেফারেল বোনাস 10000 coin
         
         // Telegram Bot Configuration - এখানে আপনার বটের তথ্য দিন
-        const BOT_TOKEN = "7987524748:AAHmv52bPWjGpWLzvexVBGZ6P5vACjInNzE"; // আপনার বট টোকেন
-        const ADMIN_CHAT_ID = "7011834885"; // আপনার টেলিগ্রাম চ্যাট আইডি
+        const BOT_TOKEN = "8292163393:AAE6fL_xcaLHsff6SMwsnY5VGFXk2JkMI_s"; // আপনার বট টোকেন
+        const ADMIN_CHAT_ID = "8065690853"; // আপনার টেলিগ্রাম চ্যাট আইডি
         
         // Variables
         let watchedAdsCount = 0;
@@ -808,7 +808,7 @@
                 // Check if this is first visit and not already referred
                 if (!localStorage.getItem('referredBy')) {
                     localStorage.setItem('referredBy', referrerId);
-                    showNotification('আপনি একটি রেফারেল লিঙ্ক ব্যবহার করে যোগদান করেছেন! রেফারার ৫ টাকা বোনাস পাবেন।', 'success');
+                    showNotification('আপনি একটি রেফারেল লিঙ্ক ব্যবহার করে যোগদান করেছেন! রেফারার 10000 coin বোনাস পাবেন।', 'success');
                     
                     // In a real app, you would send this to your backend
                     setTimeout(() => {
@@ -847,7 +847,7 @@
 
         // Check if Monetag ad is ready
         function checkAdReady() {
-            if (typeof window.show_9472189 !== 'function') {
+            if (typeof window.show_10642853 !== 'function') {
                 document.getElementById('ad-status').innerHTML = '<i class="fas fa-spinner fa-spin"></i> বিজ্ঞাপন সিস্টেম লোড হচ্ছে...';
                 setTimeout(checkAdReady, 1000);
             } else {
@@ -877,17 +877,17 @@
         // Save user data to localStorage
         function saveUserData() {
             localStorage.setItem('watchedAdsCount', watchedAdsCount);
-            localStorage.setItem('earnedPoints', earnedPoints.toFixed(2));
+            localStorage.setItem('earnedPoints', earnedPoints.toFixed(18));
             localStorage.setItem('referralCount', referralCount);
-            localStorage.setItem('referralEarnings', referralEarnings.toFixed(2));
+            localStorage.setItem('referralEarnings', referralEarnings.toFixed(18));
         }
 
         // Update all UI elements
         function updateUI() {
             document.getElementById('watched-ads').textContent = watchedAdsCount;
-            document.getElementById('earned-money').textContent = (earnedPoints + referralEarnings).toFixed(2);
+            document.getElementById('earned-money').textContent = (earnedPoints + referralEarnings).toFixed(18);
             document.getElementById('referral-count').textContent = referralCount;
-            document.getElementById('referral-earnings').textContent = referralEarnings.toFixed(2);
+            document.getElementById('referral-earnings').textContent = referralEarnings.toFixed(18);
             updateProgress();
         }
 
@@ -896,14 +896,14 @@
             const progressPercent = (earnedPoints / MIN_WITHDRAW_TAKA) * 100;
             
             document.getElementById('progress-fill').style.width = `${Math.min(progressPercent, 100)}%`;
-            document.getElementById('ads-progress').textContent = `${earnedPoints.toFixed(2)}/${MIN_WITHDRAW_TAKA} টাকা`;
+            document.getElementById('ads-progress').textContent = `${earnedPoints.toFixed(2)}/${MIN_WITHDRAW_TAKA} coin`;
         }
 
         // Function to watch an ad and earn points
         function watchAd() {
             if (isAdLoading) return;
             
-            if (typeof window.show_9472189 !== 'function') {
+            if (typeof window.show_10642853 !== 'function') {
                 document.getElementById('ad-status').innerHTML = '<i class="fas fa-exclamation-circle"></i> বিজ্ঞাপন সিস্টেম প্রস্তুত নয়। দয়া করে অপেক্ষা করুন...';
                 return;
             }
@@ -915,7 +915,7 @@
             
             try {
                 // Show the ad
-                window.show_9472189().then(() => {
+                window.show_10642853().then(() => {
                     // Ad watched successfully
                     watchedAdsCount++;
                     earnedPoints += POINTS_PER_AD;
@@ -928,11 +928,11 @@
                     createCoinAnimation();
                     
                     // Show success notification
-                    showNotification(`২ টাকা যোগ হয়েছে! আপনার ব্যালেন্স: ${(earnedPoints + referralEarnings).toFixed(2)} টাকা`, 'success');
+                    showNotification(`18 coin যোগ হয়েছে! আপনার ব্যালেন্স: ${(earnedPoints + referralEarnings).toFixed(18)} coin`, 'success');
                     
                     // Check if earned enough for withdrawal
                     if (earnedPoints + referralEarnings >= MIN_WITHDRAW_TAKA) {
-                        showNotification(`অভিনন্দন! আপনি উত্তোলনের জন্য ${MIN_WITHDRAW_TAKA} টাকা সংগ্রহ করেছেন।`, 'info');
+                        showNotification(`অভিনন্দন! আপনি উত্তোলনের জন্য ${MIN_WITHDRAW_coin} coin সংগ্রহ করেছেন।`, 'info');
                     }
                     
                     // If in auto mode, continue after delay
@@ -1022,15 +1022,15 @@
             
             if (totalEarnings < MIN_WITHDRAW_TAKA) {
                 document.getElementById('withdraw-status').textContent = 
-                    `ন্যূনতম উত্তোলন পরিমাণ ${MIN_WITHDRAW_TAKA} টাকা। আপনার আছে ${totalEarnings.toFixed(2)} টাকা।`;
+                    `ন্যূনতম উত্তোলন পরিমাণ ${MIN_WITHDRAW_TAKA} টাকা। আপনার আছে ${totalEarnings.toFixed(18)} coin`;
                 document.getElementById('withdraw-status').className = 'error-message';
                 document.getElementById('withdraw-section').style.display = 'block';
                 return;
             }
             
             document.getElementById('withdraw-amount').value = '';
-            document.getElementById('withdraw-amount').placeholder = `সর্বোচ্চ: ${totalEarnings.toFixed(2)} টাকা`;
-            document.getElementById('withdraw-amount').max = totalEarnings.toFixed(2);
+            document.getElementById('withdraw-amount').placeholder = `সর্বোচ্চ: ${totalEarnings.toFixed(18)} coin`;
+            document.getElementById('withdraw-amount').max = totalEarnings.toFixed(28);
             document.getElementById('withdraw-phone').value = '';
             document.getElementById('payment-method').selectedIndex = 0;
             document.getElementById('withdraw-status').textContent = '';
@@ -1156,3 +1156,4 @@
     </script>
 </body>
 </html>
+
