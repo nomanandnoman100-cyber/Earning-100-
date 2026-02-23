@@ -151,16 +151,4 @@ let {amount,method,number,watchedAds,balance} = req.body;
 let message =
 "📌 নতুন উত্তোলন অনুরোধ\n\n"+
 "💰 Amount: "+amount+" Coin\n"+
-"📱 Method: "+method+"\n"+
-"📞 Number: "+number+"\n"+
-"👁 Watched Ads: "+watchedAds+"\n"+
-"💎 Balance: "+balance+" Coin";
-
-await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${ADMIN_CHAT_ID}&text=${encodeURIComponent(message)}`);
-
-res.json({success:true});
-});
-
-app.listen(3000,()=>console.log("Server Running on Port 3000"));
-
-
+"📱 Meth
